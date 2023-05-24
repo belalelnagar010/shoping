@@ -1,0 +1,198 @@
+:root{
+    --lg-family: 'Kaisei Tokumin', serif;
+    --sm-family: 'Poppins', sans-serif;
+    --pink:#e5345b;
+}
+body{
+    font-family: var(--sm-family);
+}
+.navbar-brand img{
+    width: 70px;
+}
+
+.nav-link{
+    color: #666;
+}
+.nav-item{
+    margin-right: 10px;
+    font-size: 16px;
+}
+.nav-item a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #282828;
+}
+.nav-item .active,
+.nav-item a:hover{
+    color: #f25454;
+}
+.navbar-collapse div .fab{
+    color: #6C757D;
+    transition: all 0.4s;
+}
+.navbar-collapse div .fab:hover{
+    transform: scale(1.2);
+}
+.navbar-collapse div .fa-twitter:hover{
+    color: #2AA9E0;
+}
+.navbar-collapse div .fa-facebook-f:hover{
+    color: #1877F2;
+}
+.navbar-collapse div .fa-instagram:hover{
+    color: #F76541;
+}
+
+
+/*start home*/
+#home{
+    background-image: url(../imges/home/WhatsApp\ Image\ 2023-03-24\ at\ 2.03.00\ AM.jpeg);
+    background-size: 100% 100%;
+    padding-top: 104px;
+}
+.btn .btn-light{
+    padding: 10px 28px;
+    color: rgb(85,85,85);
+    border-radius: 25px;
+    border: 1px solid rgb(85, 85, 85);
+}
+.btn:not(.btn-light button):hover{
+    background-color: #e5345b !important;
+    color: #fff;
+    border-color: #e5345b !important;
+}
+.text-uppercase {
+    font-size: 60px !important;
+}
+
+
+
+
+/*end home*/
+/*start collection*/
+
+.title h2::before{
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 50px;
+    background-color: #e5345b;
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.active-filter-btn{
+    background-color: #e5345b !important;
+    color: #fff !important;
+    border-color: #e5345b;
+}
+.acteve-btn2{
+    border: 1px solid black;
+}
+.collection-img span{
+    top: 20px;
+    right: 20px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+} 
+.active-span {
+    background-color: #e5345b;
+}
+.filter-button-group .btn:hover{
+    color: #fff !important;
+}
+/*end collection*/
+/*start special*/
+.special-img span{
+    top: 20px;
+    right: 20px;
+}
+.special-img img{
+    transition: all 0.3s ease;
+}
+.special-img:hover img{
+    transform: scale(1.2);
+}
+
+.special-list .btn{
+    padding: 8px 20px !important;
+}
+.btn-belal{
+    background-color: #e5345b;
+    color: #fff;
+    
+}
+#offers{
+    background-image: url(../imges/home/istockphoto-1338849856-1024x1024.jpg) ;
+    background-size: 100% 100%;
+  
+}
+#offers .row{
+    min-height: 60vh;
+}
+/*end special*/
+
+
+/*start offers*/
+.offers-contant span{
+    font-size: 28px;
+}
+.offers-contant h2{
+    font-size: 60px;
+    font-family: var(--lg-family);
+}
+/*end offers*/
+
+
+/*start blogs*/
+.text-belal p{
+    color: #f0c9c9;
+}
+/*end blogs*/
+
+/* start newsletter*/
+#newsletter{
+    background-color: rgba(179, 179, 179, 0.5);
+}
+/* #newsletter p{
+    max-width: 600px;
+}
+#newsletter .input-group{
+    max-width: 500px;
+} */
+#newsletter .form-control{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+#newsletter .btn{
+    background-color: #e5345b;
+    color: #fff;
+    border-color: #e5345b;
+}
+#newsletter .btn:hover{
+    background-color: #000;
+    border-color:#000;
+}
+/* end newsletter*/
+/*start foter*/
+footer .brand{
+    font-family: var(--lg-family);
+    letter-spacing: 2px;
+}
+/*end foter*/
+
+@media(min-width:992px){
+   .nav-item{
+    border-bottom: none;
+   }
+}
+
+
+
+
+
+
+
+
+
